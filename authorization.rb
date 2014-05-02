@@ -10,7 +10,7 @@ module Sinatra
     end
 
     def bad_request!
-      trhow :halt, [ 400, 'Bad Request' ]
+      throw :halt, [ 400, 'Bad Request' ]
     end
 
     def authorized?
