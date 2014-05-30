@@ -7,3 +7,6 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'puma'
 gem 'bcrypt'
+gem 'sinatra-basic-auth'
+
+gem "pry"
